@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.124.35</domain>
+        <!-- Para permitir todas as comunicações em texto claro, use o seguinte:
+        <domain includeSubdomains="true">localhost</domain>
+        -->
+        <domain includeSubdomains="true">192.168.124.38</domain>
+        <domain includeSubdomains="true">https://sales-buddy-15ec2be4a757.herokuapp.com</domain>
+
+    </domain-config>
+</network-security-config>

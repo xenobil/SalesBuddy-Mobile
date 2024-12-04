@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <View
+        android:id="@+id/view_reprocess_left"
+        android:layout_width="13dp"
+        android:layout_height="42dp"
+        android:background="@drawable/rounded_bg_reprocess_magenta" />
+
+    <TextView
+        android:id="@+id/tv_name_client_reprocess"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center|start"
+        android:paddingStart="12dp"
+        android:paddingEnd="0dp"
+        android:text="@string/example_name_client_reprocess"
+        android:textColor="@color/gray_app"
+        android:textColorHighlight="@color/gray_app"
+        android:textColorHint="@color/gray_app"
+        android:textColorLink="@color/gray_app"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_value_sale_reprocess"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center|end"
+        android:paddingStart="0dp"
+        android:paddingEnd="13dp"
+        android:text="@string/example_value_sale_reprocess"
+        android:textColor="@color/gray_app"
+        android:textColorHighlight="@color/gray_app"
+        android:textColorHint="@color/gray_app"
+        android:textColorLink="@color/gray_app"
+        android:textSize="15sp" />
+
+</LinearLayout>

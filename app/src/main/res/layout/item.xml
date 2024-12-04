@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.SalesBuddy">
+
+    <EditText
+        android:id="@+id/tx_item"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="14dp"
+        android:layout_weight="4"
+        android:background="@drawable/background_edittext_registersale"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/item_sale"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="38dp"
+        android:paddingStart="15dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="5dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/blue_app"
+        android:textColorHint="@color/color_hint_grey"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_bg_item_magenta"
+        android:contentDescription="@string/btn_add_item"
+        android:scaleType="center"
+        android:src="@drawable/ic_add_item"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_remove_item"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_bg_item_blue"
+        android:contentDescription="@string/btn_remove_item"
+        android:scaleType="center"
+        android:src="@drawable/ic_remove_item"
+        android:visibility="gone"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+</LinearLayout>

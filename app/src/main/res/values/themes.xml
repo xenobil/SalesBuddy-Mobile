@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SalesBuddy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/magenta_app</item>
+        <item name="colorPrimaryVariant">#7E204D</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_app</item>
+        <item name="colorSecondaryVariant">#063A65</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:actionBarStyle">@style/ThemeActionBar</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonStyle" parent="android:style/Widget.Button">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/magenta_app</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+
+    <style name="ThemeActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/magenta_app</item>
+    </style>
+
+    <style name="ButtonStyleBlue" parent="android:style/Widget.Button">
+        <item name="colorPrimary">@color/blue_app</item>
+        <item name="colorPrimaryVariant">@color/blue_app</item>
+        <item name="colorOnPrimary">@color/blue_app</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="ButtonStyleGreen" parent="android:style/Widget.Button">
+        <item name="colorPrimary">@color/green_app</item>
+        <item name="colorPrimaryVariant">@color/green_app</item>
+        <item name="colorOnPrimary">@color/green_app</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="ButtonStyleRed" parent="android:style/Widget.Button">
+        <item name="colorPrimary">@color/red_app</item>
+        <item name="colorPrimaryVariant">@color/red_app</item>
+        <item name="colorOnPrimary">@color/red_app</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="ButtonStyleGray" parent="android:style/Widget.Button">
+        <item name="colorPrimary">@color/gray_reprocess</item>
+        <item name="colorPrimaryVariant">@color/gray_reprocess</item>
+        <item name="colorOnPrimary">@color/gray_reprocess</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:background">@drawable/rounded_bg_gray</item>
+
+    </style>
+
+    <color name="blue_app">#074A82</color>
+</resources>
